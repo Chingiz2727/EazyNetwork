@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EazyNetwork_Example' do
+  pod 'EazyNetwork', :path => '../'
+
+  target 'EazyNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
