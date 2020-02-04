@@ -1,0 +1,16 @@
+PODS:
+  - EazyNetwork (0.1.0)
+
+DEPENDENCIES:
+  - EazyNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  EazyNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EazyNetwork: 2f2444e9b2c68e61572c468379428d628645ba93
+
+PODFILE CHECKSUM: f6e30f9cf7a9fb720a069770135b4d82d4774645
+
+COCOAPODS: 1.7.5

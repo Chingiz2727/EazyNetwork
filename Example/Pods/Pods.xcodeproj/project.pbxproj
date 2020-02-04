@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0348A1E2E951EB5C6912DCEF9EE16C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		04FE2B92554AE28ADBE7A4D64B4AC710 /* EazyNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1F7E03853B49BF592D693A42BC21C /* EazyNetwork-dummy.m */; };
+		0CF43CAC641C4E595B95A899E2FA0F28 /* Pods-EazyNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BAF6899ECD8F92597CA1DBAAB6B765 /* Pods-EazyNetwork_Tests-dummy.m */; };
+		299B6BD541F66EF3BD41248CF060A84B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		48DC78C19B89747B7AC9FCE919220908 /* Pods-EazyNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23480FF73DCCD314BE55F90CA16D08AF /* Pods-EazyNetwork_Example-dummy.m */; };
+		5FD0BA05466C2E5C96F7F47F989E6E19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7401EAE32D9995850507191F1B55CC1E /* Pods-EazyNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 736F0C5E51424B4313460731191A36C6 /* Pods-EazyNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE0A90A79AD34F6F56D29994991FD79 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532D825CF05B0EB3C3A9927469B2526 /* ReplaceMe.swift */; };
+		90B117F5B943A802D3C95175FF8519C6 /* Pods-EazyNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EACF176915EE270C36563958C599620 /* Pods-EazyNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E169BA0CEBFC0CDE6A9998163397D2 /* EazyNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC755C4742A5921970F84359C433C393 /* EazyNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F81A5B4FCB44C3199E263DD3B5FB405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1871F517341FF783741A41D072C51EA;
+			remoteInfo = EazyNetwork;
+		};
+		918D47A7631D5CFE695266329361E7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4407228240A2CBB2C0BD6EEA6C787CF;
+			remoteInfo = "Pods-EazyNetwork_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F93BA8C49F3F19874FBC3DDCA3D513 /* EazyNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EazyNetwork.framework; path = EazyNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23480FF73DCCD314BE55F90CA16D08AF /* Pods-EazyNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EazyNetwork_Example-dummy.m"; sourceTree = "<group>"; };
+		24B1C08516FEAC42E72D58BD77BF0506 /* Pods_EazyNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EazyNetwork_Example.framework; path = "Pods-EazyNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32475703843251D356D9CEF4DAF50BA4 /* Pods-EazyNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EazyNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		353701806473B80F93F8EE6FBB8D2DDA /* Pods-EazyNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FB7931661963C66D631E2A62CDBF82A /* Pods-EazyNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EazyNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		553546D9D6389140EDFEEACACA821D54 /* Pods-EazyNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EazyNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6ED1F7E03853B49BF592D693A42BC21C /* EazyNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EazyNetwork-dummy.m"; sourceTree = "<group>"; };
+		6F91BE570E57302F9C7854380ED5EE01 /* Pods-EazyNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EazyNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		736F0C5E51424B4313460731191A36C6 /* Pods-EazyNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EazyNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
+		964D9FB078F30C9E1584449B36E5113D /* Pods-EazyNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EazyNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		96F9E161268F04B8BEACC9EB72197427 /* EazyNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EazyNetwork.xcconfig; sourceTree = "<group>"; };
+		97AF1815C30F6EADC83D0A70F89B3443 /* Pods-EazyNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EACF176915EE270C36563958C599620 /* Pods-EazyNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EazyNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A532D825CF05B0EB3C3A9927469B2526 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EazyNetwork/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BA988FC80732091454A61C7C2993D9C6 /* Pods-EazyNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EazyNetwork_Example.modulemap"; sourceTree = "<group>"; };
+		C1372CC3C920E213348CF8BE227471AA /* EazyNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EazyNetwork-Info.plist"; sourceTree = "<group>"; };
+		C1BAF6899ECD8F92597CA1DBAAB6B765 /* Pods-EazyNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EazyNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
+		C7EB02FD4409FA19746B42AA1B41B44A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CFC949532C732F524E0A3432B68ADC9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4B78EB5700D6CE2F73121BFD3529793 /* Pods_EazyNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EazyNetwork_Tests.framework; path = "Pods-EazyNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BAF1BBE8601A662FEA0254C4FEEAFA /* Pods-EazyNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EazyNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E5E8AEA66E15D50AD935CA360AF6E47E /* Pods-EazyNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6FBA826788418B6FCB90053839C6CCB /* Pods-EazyNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EazyNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC755C4742A5921970F84359C433C393 /* EazyNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EazyNetwork-umbrella.h"; sourceTree = "<group>"; };
+		EC98EA1C8EE24394F1A945C5A406ECA5 /* EazyNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EazyNetwork.modulemap; sourceTree = "<group>"; };
+		ED2C7B98839C4DD9134541F2C80B5D97 /* EazyNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EazyNetwork-prefix.pch"; sourceTree = "<group>"; };
+		EEDDA469BC76C503659028B5CCAC4C00 /* Pods-EazyNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EazyNetwork_Tests.modulemap"; sourceTree = "<group>"; };
+		F748864EEDFF82DD0ABFF371352CC04B /* EazyNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EazyNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC7C4587036F3AD4F68FF9184CD36A6F /* Pods-EazyNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841507D25ADBAD9EEEEC034CC04A19D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD0BA05466C2E5C96F7F47F989E6E19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E05810426DC449B097BBFA6262B40E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0348A1E2E951EB5C6912DCEF9EE16C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76151F86A1F5891B5A81E95BD008FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299B6BD541F66EF3BD41248CF060A84B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0E9D28E8786379319E8FE1E202DC91 /* Pods-EazyNetwork_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDA469BC76C503659028B5CCAC4C00 /* Pods-EazyNetwork_Tests.modulemap */,
+				E6FBA826788418B6FCB90053839C6CCB /* Pods-EazyNetwork_Tests-acknowledgements.markdown */,
+				353701806473B80F93F8EE6FBB8D2DDA /* Pods-EazyNetwork_Tests-acknowledgements.plist */,
+				C1BAF6899ECD8F92597CA1DBAAB6B765 /* Pods-EazyNetwork_Tests-dummy.m */,
+				97AF1815C30F6EADC83D0A70F89B3443 /* Pods-EazyNetwork_Tests-Info.plist */,
+				9EACF176915EE270C36563958C599620 /* Pods-EazyNetwork_Tests-umbrella.h */,
+				32475703843251D356D9CEF4DAF50BA4 /* Pods-EazyNetwork_Tests.debug.xcconfig */,
+				964D9FB078F30C9E1584449B36E5113D /* Pods-EazyNetwork_Tests.release.xcconfig */,
+			);
+			name = "Pods-EazyNetwork_Tests";
+			path = "Target Support Files/Pods-EazyNetwork_Tests";
+			sourceTree = "<group>";
+		};
+		5A1E0BDF6CD81235D0476D89E82F6E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F93BA8C49F3F19874FBC3DDCA3D513 /* EazyNetwork.framework */,
+				24B1C08516FEAC42E72D58BD77BF0506 /* Pods_EazyNetwork_Example.framework */,
+				D4B78EB5700D6CE2F73121BFD3529793 /* Pods_EazyNetwork_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672896F248A6BC378457AAB4A2195625 /* EazyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A532D825CF05B0EB3C3A9927469B2526 /* ReplaceMe.swift */,
+				7F343810D311791EC6B884F59261899C /* Pod */,
+				D34A4D16937D8C99DE7E20919B632F22 /* Support Files */,
+			);
+			name = EazyNetwork;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7F343810D311791EC6B884F59261899C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F748864EEDFF82DD0ABFF371352CC04B /* EazyNetwork.podspec */,
+				C7EB02FD4409FA19746B42AA1B41B44A /* LICENSE */,
+				CFC949532C732F524E0A3432B68ADC9A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F135614095D361B7C111BD230EC0D5C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				672896F248A6BC378457AAB4A2195625 /* EazyNetwork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A91F804A0AC169841F7029A49F15F134 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C66F80E9E82AB2A7A9F13F72E3B12 /* Pods-EazyNetwork_Example */,
+				4B0E9D28E8786379319E8FE1E202DC91 /* Pods-EazyNetwork_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9F135614095D361B7C111BD230EC0D5C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5A1E0BDF6CD81235D0476D89E82F6E59 /* Products */,
+				A91F804A0AC169841F7029A49F15F134 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34A4D16937D8C99DE7E20919B632F22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC98EA1C8EE24394F1A945C5A406ECA5 /* EazyNetwork.modulemap */,
+				96F9E161268F04B8BEACC9EB72197427 /* EazyNetwork.xcconfig */,
+				6ED1F7E03853B49BF592D693A42BC21C /* EazyNetwork-dummy.m */,
+				C1372CC3C920E213348CF8BE227471AA /* EazyNetwork-Info.plist */,
+				ED2C7B98839C4DD9134541F2C80B5D97 /* EazyNetwork-prefix.pch */,
+				EC755C4742A5921970F84359C433C393 /* EazyNetwork-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EazyNetwork";
+			sourceTree = "<group>";
+		};
+		FD7C66F80E9E82AB2A7A9F13F72E3B12 /* Pods-EazyNetwork_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA988FC80732091454A61C7C2993D9C6 /* Pods-EazyNetwork_Example.modulemap */,
+				4FB7931661963C66D631E2A62CDBF82A /* Pods-EazyNetwork_Example-acknowledgements.markdown */,
+				E5E8AEA66E15D50AD935CA360AF6E47E /* Pods-EazyNetwork_Example-acknowledgements.plist */,
+				23480FF73DCCD314BE55F90CA16D08AF /* Pods-EazyNetwork_Example-dummy.m */,
+				E1BAF1BBE8601A662FEA0254C4FEEAFA /* Pods-EazyNetwork_Example-frameworks.sh */,
+				FC7C4587036F3AD4F68FF9184CD36A6F /* Pods-EazyNetwork_Example-Info.plist */,
+				736F0C5E51424B4313460731191A36C6 /* Pods-EazyNetwork_Example-umbrella.h */,
+				6F91BE570E57302F9C7854380ED5EE01 /* Pods-EazyNetwork_Example.debug.xcconfig */,
+				553546D9D6389140EDFEEACACA821D54 /* Pods-EazyNetwork_Example.release.xcconfig */,
+			);
+			name = "Pods-EazyNetwork_Example";
+			path = "Target Support Files/Pods-EazyNetwork_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04584DCF35B762AC04D85C5A41736C81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B117F5B943A802D3C95175FF8519C6 /* Pods-EazyNetwork_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FFF9FB096C3D480948AD560668C6DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E169BA0CEBFC0CDE6A9998163397D2 /* EazyNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA0D03A526D506A5FFFF7067566143 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7401EAE32D9995850507191F1B55CC1E /* Pods-EazyNetwork_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40082F5EFCF867263754644CA9ADCF21 /* Pods-EazyNetwork_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8122188319149AA1CEFCB03A5CCD224 /* Build configuration list for PBXNativeTarget "Pods-EazyNetwork_Tests" */;
+			buildPhases = (
+				04584DCF35B762AC04D85C5A41736C81 /* Headers */,
+				2CB76BEBEE8DE453F8F58D736A989F5E /* Sources */,
+				D76151F86A1F5891B5A81E95BD008FCE /* Frameworks */,
+				E9DEBAFE59418EA70328C19FA3966086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				296932F492DFC0AD00CE22288D8FB86F /* PBXTargetDependency */,
+			);
+			name = "Pods-EazyNetwork_Tests";
+			productName = "Pods-EazyNetwork_Tests";
+			productReference = D4B78EB5700D6CE2F73121BFD3529793 /* Pods_EazyNetwork_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1871F517341FF783741A41D072C51EA /* EazyNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E3A7D8348C050F3510B35D4178D0D7 /* Build configuration list for PBXNativeTarget "EazyNetwork" */;
+			buildPhases = (
+				51FFF9FB096C3D480948AD560668C6DD /* Headers */,
+				6EE802F29F3B208C043C21F7B8A6E7ED /* Sources */,
+				841507D25ADBAD9EEEEC034CC04A19D7 /* Frameworks */,
+				755E63BD9EE0CFB3FA933E90E26CE863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EazyNetwork;
+			productName = EazyNetwork;
+			productReference = 02F93BA8C49F3F19874FBC3DDCA3D513 /* EazyNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4407228240A2CBB2C0BD6EEA6C787CF /* Pods-EazyNetwork_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD23994FFFA9A9888BCFCB5DC102C49 /* Build configuration list for PBXNativeTarget "Pods-EazyNetwork_Example" */;
+			buildPhases = (
+				68CA0D03A526D506A5FFFF7067566143 /* Headers */,
+				E57F0FFF172E8C4FBB2949877AE93EA1 /* Sources */,
+				8E05810426DC449B097BBFA6262B40E3 /* Frameworks */,
+				07521351E71C70B4DFF56322E5B8AC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC022E434235F4A77E5FFC5B8C8DC25 /* PBXTargetDependency */,
+			);
+			name = "Pods-EazyNetwork_Example";
+			productName = "Pods-EazyNetwork_Example";
+			productReference = 24B1C08516FEAC42E72D58BD77BF0506 /* Pods_EazyNetwork_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5A1E0BDF6CD81235D0476D89E82F6E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1871F517341FF783741A41D072C51EA /* EazyNetwork */,
+				E4407228240A2CBB2C0BD6EEA6C787CF /* Pods-EazyNetwork_Example */,
+				40082F5EFCF867263754644CA9ADCF21 /* Pods-EazyNetwork_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07521351E71C70B4DFF56322E5B8AC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755E63BD9EE0CFB3FA933E90E26CE863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DEBAFE59418EA70328C19FA3966086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CB76BEBEE8DE453F8F58D736A989F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF43CAC641C4E595B95A899E2FA0F28 /* Pods-EazyNetwork_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE802F29F3B208C043C21F7B8A6E7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FE2B92554AE28ADBE7A4D64B4AC710 /* EazyNetwork-dummy.m in Sources */,
+				7AE0A90A79AD34F6F56D29994991FD79 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57F0FFF172E8C4FBB2949877AE93EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DC78C19B89747B7AC9FCE919220908 /* Pods-EazyNetwork_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		296932F492DFC0AD00CE22288D8FB86F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EazyNetwork_Example";
+			target = E4407228240A2CBB2C0BD6EEA6C787CF /* Pods-EazyNetwork_Example */;
+			targetProxy = 918D47A7631D5CFE695266329361E7B5 /* PBXContainerItemProxy */;
+		};
+		BFC022E434235F4A77E5FFC5B8C8DC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EazyNetwork;
+			target = E1871F517341FF783741A41D072C51EA /* EazyNetwork */;
+			targetProxy = 3F81A5B4FCB44C3199E263DD3B5FB405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B5C78D335C0ED49B7463CBE4664E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553546D9D6389140EDFEEACACA821D54 /* Pods-EazyNetwork_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EazyNetwork_Example/Pods-EazyNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EazyNetwork_Example/Pods-EazyNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0971ECAA2C3AEC777C5B9EBB1A2EF1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F91BE570E57302F9C7854380ED5EE01 /* Pods-EazyNetwork_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EazyNetwork_Example/Pods-EazyNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EazyNetwork_Example/Pods-EazyNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43758B1A360DF348DF083FBEF56CD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32475703843251D356D9CEF4DAF50BA4 /* Pods-EazyNetwork_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EazyNetwork_Tests/Pods-EazyNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EazyNetwork_Tests/Pods-EazyNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783A4637328D643B596043E344899A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F9E161268F04B8BEACC9EB72197427 /* EazyNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EazyNetwork/EazyNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EazyNetwork/EazyNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EazyNetwork/EazyNetwork.modulemap";
+				PRODUCT_MODULE_NAME = EazyNetwork;
+				PRODUCT_NAME = EazyNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0D042C3926C953A7130F69CB213FD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F9E161268F04B8BEACC9EB72197427 /* EazyNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EazyNetwork/EazyNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EazyNetwork/EazyNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EazyNetwork/EazyNetwork.modulemap";
+				PRODUCT_MODULE_NAME = EazyNetwork;
+				PRODUCT_NAME = EazyNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FBFA0AB9BDC481A5645B8C1EC379F7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 964D9FB078F30C9E1584449B36E5113D /* Pods-EazyNetwork_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EazyNetwork_Tests/Pods-EazyNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EazyNetwork_Tests/Pods-EazyNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E3A7D8348C050F3510B35D4178D0D7 /* Build configuration list for PBXNativeTarget "EazyNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783A4637328D643B596043E344899A08 /* Debug */,
+				B0D042C3926C953A7130F69CB213FD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8122188319149AA1CEFCB03A5CCD224 /* Build configuration list for PBXNativeTarget "Pods-EazyNetwork_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43758B1A360DF348DF083FBEF56CD737 /* Debug */,
+				FBFA0AB9BDC481A5645B8C1EC379F7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD23994FFFA9A9888BCFCB5DC102C49 /* Build configuration list for PBXNativeTarget "Pods-EazyNetwork_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0971ECAA2C3AEC777C5B9EBB1A2EF1AF /* Debug */,
+				05B5C78D335C0ED49B7463CBE4664E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

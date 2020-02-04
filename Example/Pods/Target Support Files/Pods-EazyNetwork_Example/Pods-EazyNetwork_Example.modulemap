@@ -1,0 +1,6 @@
+framework module Pods_EazyNetwork_Example {
+  umbrella header "Pods-EazyNetwork_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

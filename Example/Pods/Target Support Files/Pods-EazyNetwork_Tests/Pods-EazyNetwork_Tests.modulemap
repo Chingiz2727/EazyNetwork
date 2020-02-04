@@ -1,0 +1,6 @@
+framework module Pods_EazyNetwork_Tests {
+  umbrella header "Pods-EazyNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
