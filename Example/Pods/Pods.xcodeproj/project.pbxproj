@@ -14,8 +14,33 @@
 		48DC78C19B89747B7AC9FCE919220908 /* Pods-EazyNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23480FF73DCCD314BE55F90CA16D08AF /* Pods-EazyNetwork_Example-dummy.m */; };
 		5FD0BA05466C2E5C96F7F47F989E6E19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7401EAE32D9995850507191F1B55CC1E /* Pods-EazyNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 736F0C5E51424B4313460731191A36C6 /* Pods-EazyNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AE0A90A79AD34F6F56D29994991FD79 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532D825CF05B0EB3C3A9927469B2526 /* ReplaceMe.swift */; };
 		90B117F5B943A802D3C95175FF8519C6 /* Pods-EazyNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EACF176915EE270C36563958C599620 /* Pods-EazyNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40D299323E99DC3001A50C5 /* NetWorkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297523E99DC1001A50C5 /* NetWorkRouter.swift */; };
+		A40D299423E99DC3001A50C5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297623E99DC1001A50C5 /* Router.swift */; };
+		A40D299523E99DC3001A50C5 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297723E99DC2001A50C5 /* HTTPMethods.swift */; };
+		A40D299623E99DC3001A50C5 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297823E99DC2001A50C5 /* Encoding.swift */; };
+		A40D299723E99DC3001A50C5 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297923E99DC2001A50C5 /* Errors.swift */; };
+		A40D299823E99DC3001A50C5 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297B23E99DC2001A50C5 /* Errors.swift */; };
+		A40D299923E99DC3001A50C5 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297C23E99DC2001A50C5 /* EndPoint.swift */; };
+		A40D299A23E99DC3001A50C5 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297D23E99DC2001A50C5 /* HTTPTask.swift */; };
+		A40D299B23E99DC3001A50C5 /* JSONEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D297F23E99DC2001A50C5 /* JSONEncoding.swift */; };
+		A40D299C23E99DC3001A50C5 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298023E99DC2001A50C5 /* Encoding.swift */; };
+		A40D299D23E99DC3001A50C5 /* URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298123E99DC2001A50C5 /* URLEncoding.swift */; };
+		A40D299E23E99DC3001A50C5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A40D298223E99DC2001A50C5 /* Info.plist */; };
+		A40D299F23E99DC3001A50C5 /* URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298323E99DC2001A50C5 /* URLEncoding.swift */; };
+		A40D29A023E99DC3001A50C5 /* EezyNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A40D298423E99DC2001A50C5 /* EezyNetwork.h */; };
+		A40D29A123E99DC3001A50C5 /* MakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298523E99DC2001A50C5 /* MakeNetwork.swift */; };
+		A40D29A223E99DC3001A50C5 /* NetWorkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298723E99DC3001A50C5 /* NetWorkRouter.swift */; };
+		A40D29A323E99DC3001A50C5 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298823E99DC3001A50C5 /* Logs.swift */; };
+		A40D29A423E99DC3001A50C5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298923E99DC3001A50C5 /* Router.swift */; };
+		A40D29A523E99DC3001A50C5 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298B23E99DC3001A50C5 /* Parameter.swift */; };
+		A40D29A623E99DC3001A50C5 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298C23E99DC3001A50C5 /* HTTPTask.swift */; };
+		A40D29A723E99DC3001A50C5 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298D23E99DC3001A50C5 /* HTTPMethods.swift */; };
+		A40D29A823E99DC3001A50C5 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298E23E99DC3001A50C5 /* HTTPHeaders.swift */; };
+		A40D29A923E99DC3001A50C5 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D298F23E99DC3001A50C5 /* Parameter.swift */; };
+		A40D29AA23E99DC3001A50C5 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D299023E99DC3001A50C5 /* Logs.swift */; };
+		A40D29AB23E99DC3001A50C5 /* JSONEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D299123E99DC3001A50C5 /* JSONEncoding.swift */; };
+		A40D29AC23E99DC3001A50C5 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D299223E99DC3001A50C5 /* HTTPHeaders.swift */; };
 		C8E169BA0CEBFC0CDE6A9998163397D2 /* EazyNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC755C4742A5921970F84359C433C393 /* EazyNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,9 +62,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F93BA8C49F3F19874FBC3DDCA3D513 /* EazyNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EazyNetwork.framework; path = EazyNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F93BA8C49F3F19874FBC3DDCA3D513 /* EazyNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EazyNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23480FF73DCCD314BE55F90CA16D08AF /* Pods-EazyNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EazyNetwork_Example-dummy.m"; sourceTree = "<group>"; };
-		24B1C08516FEAC42E72D58BD77BF0506 /* Pods_EazyNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EazyNetwork_Example.framework; path = "Pods-EazyNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B1C08516FEAC42E72D58BD77BF0506 /* Pods_EazyNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EazyNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32475703843251D356D9CEF4DAF50BA4 /* Pods-EazyNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EazyNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		353701806473B80F93F8EE6FBB8D2DDA /* Pods-EazyNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -51,15 +76,40 @@
 		964D9FB078F30C9E1584449B36E5113D /* Pods-EazyNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EazyNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96F9E161268F04B8BEACC9EB72197427 /* EazyNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EazyNetwork.xcconfig; sourceTree = "<group>"; };
 		97AF1815C30F6EADC83D0A70F89B3443 /* Pods-EazyNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EACF176915EE270C36563958C599620 /* Pods-EazyNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EazyNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A532D825CF05B0EB3C3A9927469B2526 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EazyNetwork/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A40D297523E99DC1001A50C5 /* NetWorkRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkRouter.swift; sourceTree = "<group>"; };
+		A40D297623E99DC1001A50C5 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A40D297723E99DC2001A50C5 /* HTTPMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		A40D297823E99DC2001A50C5 /* Encoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		A40D297923E99DC2001A50C5 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		A40D297B23E99DC2001A50C5 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		A40D297C23E99DC2001A50C5 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		A40D297D23E99DC2001A50C5 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		A40D297F23E99DC2001A50C5 /* JSONEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncoding.swift; sourceTree = "<group>"; };
+		A40D298023E99DC2001A50C5 /* Encoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		A40D298123E99DC2001A50C5 /* URLEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncoding.swift; sourceTree = "<group>"; };
+		A40D298223E99DC2001A50C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40D298323E99DC2001A50C5 /* URLEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncoding.swift; sourceTree = "<group>"; };
+		A40D298423E99DC2001A50C5 /* EezyNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EezyNetwork.h; sourceTree = "<group>"; };
+		A40D298523E99DC2001A50C5 /* MakeNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeNetwork.swift; sourceTree = "<group>"; };
+		A40D298723E99DC3001A50C5 /* NetWorkRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkRouter.swift; sourceTree = "<group>"; };
+		A40D298823E99DC3001A50C5 /* Logs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logs.swift; sourceTree = "<group>"; };
+		A40D298923E99DC3001A50C5 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A40D298B23E99DC3001A50C5 /* Parameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		A40D298C23E99DC3001A50C5 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		A40D298D23E99DC3001A50C5 /* HTTPMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		A40D298E23E99DC3001A50C5 /* HTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		A40D298F23E99DC3001A50C5 /* Parameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		A40D299023E99DC3001A50C5 /* Logs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logs.swift; sourceTree = "<group>"; };
+		A40D299123E99DC3001A50C5 /* JSONEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncoding.swift; sourceTree = "<group>"; };
+		A40D299223E99DC3001A50C5 /* HTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
 		BA988FC80732091454A61C7C2993D9C6 /* Pods-EazyNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EazyNetwork_Example.modulemap"; sourceTree = "<group>"; };
 		C1372CC3C920E213348CF8BE227471AA /* EazyNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EazyNetwork-Info.plist"; sourceTree = "<group>"; };
 		C1BAF6899ECD8F92597CA1DBAAB6B765 /* Pods-EazyNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EazyNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
-		C7EB02FD4409FA19746B42AA1B41B44A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CFC949532C732F524E0A3432B68ADC9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D4B78EB5700D6CE2F73121BFD3529793 /* Pods_EazyNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EazyNetwork_Tests.framework; path = "Pods-EazyNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EB02FD4409FA19746B42AA1B41B44A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CFC949532C732F524E0A3432B68ADC9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4B78EB5700D6CE2F73121BFD3529793 /* Pods_EazyNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EazyNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BAF1BBE8601A662FEA0254C4FEEAFA /* Pods-EazyNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EazyNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E5E8AEA66E15D50AD935CA360AF6E47E /* Pods-EazyNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6FBA826788418B6FCB90053839C6CCB /* Pods-EazyNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EazyNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -67,7 +117,7 @@
 		EC98EA1C8EE24394F1A945C5A406ECA5 /* EazyNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EazyNetwork.modulemap; sourceTree = "<group>"; };
 		ED2C7B98839C4DD9134541F2C80B5D97 /* EazyNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EazyNetwork-prefix.pch"; sourceTree = "<group>"; };
 		EEDDA469BC76C503659028B5CCAC4C00 /* Pods-EazyNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EazyNetwork_Tests.modulemap"; sourceTree = "<group>"; };
-		F748864EEDFF82DD0ABFF371352CC04B /* EazyNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EazyNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F748864EEDFF82DD0ABFF371352CC04B /* EazyNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EazyNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC7C4587036F3AD4F68FF9184CD36A6F /* Pods-EazyNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EazyNetwork_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +178,25 @@
 		672896F248A6BC378457AAB4A2195625 /* EazyNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				A532D825CF05B0EB3C3A9927469B2526 /* ReplaceMe.swift */,
+				A40D298423E99DC2001A50C5 /* EezyNetwork.h */,
+				A40D297E23E99DC2001A50C5 /* Encoding */,
+				A40D297823E99DC2001A50C5 /* Encoding.swift */,
+				A40D297C23E99DC2001A50C5 /* EndPoint.swift */,
+				A40D297A23E99DC2001A50C5 /* Errors */,
+				A40D297923E99DC2001A50C5 /* Errors.swift */,
+				A40D299223E99DC3001A50C5 /* HTTPHeaders.swift */,
+				A40D297723E99DC2001A50C5 /* HTTPMethods.swift */,
+				A40D297D23E99DC2001A50C5 /* HTTPTask.swift */,
+				A40D298223E99DC2001A50C5 /* Info.plist */,
+				A40D299123E99DC3001A50C5 /* JSONEncoding.swift */,
+				A40D299023E99DC3001A50C5 /* Logs.swift */,
+				A40D298523E99DC2001A50C5 /* MakeNetwork.swift */,
+				A40D297523E99DC1001A50C5 /* NetWorkRouter.swift */,
+				A40D298F23E99DC3001A50C5 /* Parameter.swift */,
+				A40D298623E99DC3001A50C5 /* Router */,
+				A40D297623E99DC1001A50C5 /* Router.swift */,
+				A40D298A23E99DC3001A50C5 /* Service */,
+				A40D298323E99DC2001A50C5 /* URLEncoding.swift */,
 				7F343810D311791EC6B884F59261899C /* Pod */,
 				D34A4D16937D8C99DE7E20919B632F22 /* Support Files */,
 			);
@@ -152,6 +220,45 @@
 				672896F248A6BC378457AAB4A2195625 /* EazyNetwork */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A40D297A23E99DC2001A50C5 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				A40D297B23E99DC2001A50C5 /* Errors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		A40D297E23E99DC2001A50C5 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				A40D297F23E99DC2001A50C5 /* JSONEncoding.swift */,
+				A40D298023E99DC2001A50C5 /* Encoding.swift */,
+				A40D298123E99DC2001A50C5 /* URLEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		A40D298623E99DC3001A50C5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A40D298723E99DC3001A50C5 /* NetWorkRouter.swift */,
+				A40D298823E99DC3001A50C5 /* Logs.swift */,
+				A40D298923E99DC3001A50C5 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A40D298A23E99DC3001A50C5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A40D298B23E99DC3001A50C5 /* Parameter.swift */,
+				A40D298C23E99DC3001A50C5 /* HTTPTask.swift */,
+				A40D298D23E99DC3001A50C5 /* HTTPMethods.swift */,
+				A40D298E23E99DC3001A50C5 /* HTTPHeaders.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		A91F804A0AC169841F7029A49F15F134 /* Targets Support Files */ = {
@@ -236,6 +343,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40D29A023E99DC3001A50C5 /* EezyNetwork.h in Headers */,
 				C8E169BA0CEBFC0CDE6A9998163397D2 /* EazyNetwork-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40D299E23E99DC3001A50C5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +481,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40D29A923E99DC3001A50C5 /* Parameter.swift in Sources */,
+				A40D299C23E99DC3001A50C5 /* Encoding.swift in Sources */,
+				A40D299B23E99DC3001A50C5 /* JSONEncoding.swift in Sources */,
+				A40D299623E99DC3001A50C5 /* Encoding.swift in Sources */,
+				A40D299523E99DC3001A50C5 /* HTTPMethods.swift in Sources */,
+				A40D29A423E99DC3001A50C5 /* Router.swift in Sources */,
+				A40D29A123E99DC3001A50C5 /* MakeNetwork.swift in Sources */,
+				A40D29A523E99DC3001A50C5 /* Parameter.swift in Sources */,
+				A40D299423E99DC3001A50C5 /* Router.swift in Sources */,
+				A40D299923E99DC3001A50C5 /* EndPoint.swift in Sources */,
+				A40D29AA23E99DC3001A50C5 /* Logs.swift in Sources */,
+				A40D299323E99DC3001A50C5 /* NetWorkRouter.swift in Sources */,
+				A40D29AC23E99DC3001A50C5 /* HTTPHeaders.swift in Sources */,
+				A40D29A823E99DC3001A50C5 /* HTTPHeaders.swift in Sources */,
+				A40D29AB23E99DC3001A50C5 /* JSONEncoding.swift in Sources */,
+				A40D299823E99DC3001A50C5 /* Errors.swift in Sources */,
+				A40D29A223E99DC3001A50C5 /* NetWorkRouter.swift in Sources */,
+				A40D299A23E99DC3001A50C5 /* HTTPTask.swift in Sources */,
 				04FE2B92554AE28ADBE7A4D64B4AC710 /* EazyNetwork-dummy.m in Sources */,
-				7AE0A90A79AD34F6F56D29994991FD79 /* ReplaceMe.swift in Sources */,
+				A40D299F23E99DC3001A50C5 /* URLEncoding.swift in Sources */,
+				A40D29A623E99DC3001A50C5 /* HTTPTask.swift in Sources */,
+				A40D299723E99DC3001A50C5 /* Errors.swift in Sources */,
+				A40D29A323E99DC3001A50C5 /* Logs.swift in Sources */,
+				A40D299D23E99DC3001A50C5 /* URLEncoding.swift in Sources */,
+				A40D29A723E99DC3001A50C5 /* HTTPMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,8 +719,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
